@@ -1,9 +1,6 @@
 # Pizza-Sales-Report
 This project features an interactive Pizza Sales Report dashboard built with Power BI, powered by data analysis and transformation using SQL. This project analyzes key metrics such as total revenue, top-selling pizzas, peak order times, and customer preferences to derive actionable business insights for a pizza restaurant.
 
-# Airlines-Dashboard
-
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
 
 ## Problem Statement
 
@@ -43,95 +40,58 @@ ORDER BY Total_Revenue ASC
 
 # Snapshot of Dashboard (Power BI Service)
 
-![dashboard_snapo](https://user-images.githubusercontent.com/102996550/174096257-11f1aae5-203d-44fc-bfca-25d37faf3237.jpg)
+![Image](https://github.com/user-attachments/assets/782d2b92-1f62-4ca3-9d5b-02755b9ac7bb)
 
  
  # Report Snapshot (Power BI DESKTOP)
 
  
-![Dashboard_upload](https://user-images.githubusercontent.com/102996550/174074051-4f08287a-0568-4fdf-8ac9-6762e0d8fa94.jpg)
+![Image](https://github.com/user-attachments/assets/ed494883-fde1-4bbb-85e1-c819ace40eae)
+![Image](https://github.com/user-attachments/assets/ff0ed905-a18a-4a6e-9462-4d7d5001cbd3)
 
-# Insights
+# Kpi's Requirement
 
-A single page report was created on Power BI Desktop & it was then published to Power BI Service.
+We need to analyze key indicators for our pizza sales data to gain insights into our business performance. Specifically, we want to calculate the following metrics:
 
-Following inferences can be drawn from the dashboard;
+1. Total Revenue: The sum of the total price of all pizza orders.
 
-### [1] Total Number of Customers = 129880
+2. Average Order Value: The average amount spent per order, calculated by dividing the total revenue by the total number of orders.
 
-   Number of satisfied Customers (Male) = 28159 (21.68 %)
+3. Total Pizzas Sold: The sum of the quantities of all pizzas sold.
 
-   Number of satisfied Customers (Female) = 28269 (21.76 %)
+4. Total Orders: The total number of orders placed.
 
-   Number of neutral/unsatisfied customers (Male) = 35822 (27.58 %)
+5. Average Pizzas Per Order: The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
 
-   Number of neutral/unsatisfied customers (Female) = 37630 (28.97 %)
+# Problem Statement
+## Charts Requirement
 
+We would like to visualize various aspects of our pizza sales data to gain insights and understand key trends. We have identified the following requirements for creating charts:
 
-           thus, higher number of customers are neutral/unsatisfied.
-           
-### [2] Average Ratings
+1.Daily Trend for Total Orders:
 
-    a) Baggage Handling - 3.63/5
-    b) Check-in Service - 3.31/5
-    c) Cleanliness - 3.29/5
-    d) Ease of online booking - 2.88/5
-    e) Food & Drink - 3.21/5
-    f) In-flight Entertainment - 3.36/5
-    g) In-flight service - 3.64/5
-    h) In-flight Wifi service - 2.81/5
-    i) Leg room service - 3.37/5
-    j) On-board service - 3.38/5
-    k) Online boarding - 3.33/5
-    l) Seat comfort - 3.44/5
-    m) Departure & arrival convenience - 3.22/5
-  
-  while calculating average rating, null values have been ignored as they were not relevant for some customers. 
-  
-  These ratings will change if different visual filters will be applied.  
-  
-  ### [3] Average Delay 
-  
-      a) Average delay in arrival(minutes) - 15.09
-      b) Average delay in departure(minutes) - 14.71
-Average delay will change if different visual filters will be applied.
+Create a bar chart that displays the daily trend of total orders over a specific time period. This chart will help us identify any patterns or fluctuations in order volumes on a daily basis.
 
- ### [4] Some other insights
- 
- ### Class
- 
- 1.1) 47.87 % customers travelled by Business class.
- 
- 1.2) 44.89 % customers travelled by Economy class.
- 
- 1.3) 7.25 % customers travelled by Economy plus class.
- 
-         thus, maximum customers travelled by Business class.
- 
- ### Age Group
- 
- 2.1)  21.69 % customers belong to '0-25' age group.
- 
- 2.2)  52.44 % customers belong to '25-50' age group.
- 
- 2.3)  25.57 % customers belong to '50-75' age group.
- 
- 2.4)  0.31 % customers belong to '75-100' age group.
- 
-         thus, maximum customers belong to '25-50' age group.
-         
-### Customer Type
+2.Monthly Trend for Total Orders:
 
-3.1) 18.31 % customers have customer type 'First time'.
+Create a line chart that illustrates the hourly trend of total orders throughout the day. This chart will allow us to identify peak hours or periods of high order activity.
 
-3.2) 81.69 % customers have customer type 'returning'.
-       
-       thus, more customers have customer type 'returning'.
+3.Percentage of Sales by Pizza Category:
 
-### Type of travel
+Create a pie chart that shows the distribution of sales across different pizza categories. This chart will provide insights into the popularity of various pizza categories and their contribution to overall sales.
 
-4.1) 69.06 % customers have travel type 'Business'.
+4. Percentage of Sales by Pizza Size:
 
-4.2) 30.94 % customers have travel type 'Personal'.
+Generate a pie chart that represents the percentage of sales attributed to different pizza sizes. This chart will help us understand customer preferences for pizza sizes and their impact on sales.
 
-        thus, more customers have travel type 'Business'.
+5.Total Pizzas Sold by Pizza Category:
+
+Create a funnel chart that presents the total number of pizzas sold for each pizza category. This chart will allow us to compare the sales performance of different pizza categories.
+
+6.Top 5 Best Sellers by Revenue, Total Quantity and Total Orders
+
+Create a bar chart highlighting the top 5 best-selling pizzas based on the Revenue, Total Quantity, Total Orders. This chart will help us identify the most popular pizza options.
+
+7. Bottom 5 Best Sellers by Revenue, Total Quantity and Total Orders
+
+Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Revenue, Total Quantity,Total Orders.This chart will enable us to identify underperforming or less popular pizza options.
